@@ -11,7 +11,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "preinstall": "node script/node/check-version.js",
+        
         "start": "node index.js --autocleartmp",
         "test": "node test.js",
         "test2": "nodemon index.js --autocleartmp"
